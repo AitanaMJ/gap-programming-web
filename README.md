@@ -7,12 +7,13 @@ Sitio estático y responsive hecho con HTML, CSS y JavaScript. No necesita insta
 ```
 gap-programming-web/
 ├── index.html          Página única con todas las secciones
+├── favicon.ico         Favicon (16, 32 y 48 px)
 ├── css/
 │   └── styles.css      Estilos del sitio
 ├── js/
 │   ├── app.js          Menú, contacto, formulario, filtros del portafolio y videos
 │   └── config.js       Datos de contacto (WhatsApp, email, Instagram, Formspree)
-├── img/                Capturas y portadas del portafolio (WebP / JPG)
+├── img/                Logo, favicons, capturas y portadas del portafolio
 └── assets/             Videos de las demos (MP4)
 ```
 
@@ -68,7 +69,13 @@ Los colores de cada tarjeta se definen en `css/styles.css`, en las clases `.prev
 - Está optimizado (H.264, 1280 × 564, sin audio, unos 3,4 MB). El original se conserva en `gap-programming-respaldos`.
 - Se reproduce automáticamente, silenciado y en bucle, solo cuando la tarjeta está visible, y no se descarga antes.
 - Si el visitante activó "reducir movimiento" o el ahorro de datos, se muestra solo la portada.
-- Para habilitar el enlace cuando la nueva demo esté publicada, buscá en `index.html` el comentario "Enlaces a la demo anterior" dentro de la tarjeta de ÉTER Studio.
+- Para habilitar el botón "Ver sitio" cuando la nueva demo esté publicada, seguí las instrucciones del comentario que está dentro de la tarjeta de ÉTER Studio en `index.html`.
+
+## Logo
+
+- `img/logo-gap.webp` (480 × 480 px) se usa en el header, en Sobre GAP y en el footer.
+- Los favicons (`favicon.ico`, `img/favicon-32.png`, `img/apple-touch-icon.png`) se generaron a partir del mismo logo.
+- El archivo original en alta resolución (`logo1.png`) se guarda en `gap-programming-respaldos` y no se publica.
 
 ## Precios
 
