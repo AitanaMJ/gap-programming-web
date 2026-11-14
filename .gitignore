@@ -1,0 +1,19 @@
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.tmp
+*.bak
+*.log
+
+# Respaldos (el video original de 16 MB se guarda fuera del proyecto)
+*-original.*
+respaldos/
+
+# Capturas antiguas que la web ya no utiliza
+img/aurorastudiocatalogo.netlify.app_.png
+img/fitnessclub-gap-programming.netlify.app_.png
+img/localhost_5173_tienda(iPhone 16 Pro Max).png
+img/olivarestaurant.netlify.app_(iPhone 16 Pro Max).png
+img/vivianacandiriolapsicologa.netlify.app_ (1).png
